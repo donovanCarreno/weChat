@@ -1,12 +1,16 @@
 import React from 'react'
 import ReactDOM from 'react-dom'
-import Channels from './Channels.jsx'
-import Messages from './Messages.jsx'
+import Channels from './Channels'
+import Messages from './Messages'
 
 const App = () => (
   <div>
-    <Channels />
-    <Messages />
+    <div>
+      <Channels />
+    </div>
+    <div>
+      <Messages />
+    </div>
   </div>
 )
 
