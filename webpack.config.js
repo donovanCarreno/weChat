@@ -1,6 +1,15 @@
 module.exports = {
   entry: './client/src/App.jsx',
 
+  output: {
+    path: './client/public',
+    filename: 'bundle.js'
+  },
+
+  resolve: {
+    extensions: ['', '.js', '.jsx']
+  },
+
   module: {
     loaders: [
       {
@@ -12,10 +21,6 @@ module.exports = {
         }
       }
     ]
-  },
-
-  output: {
-    path: './client/public',
-    filename: 'bundle.js'
   }
+
 };

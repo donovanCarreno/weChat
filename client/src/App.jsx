@@ -1,4 +1,13 @@
-import React from 'react';
-import ReactDOM from 'react-dom';
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Channels from './Channels.jsx'
+import Messages from './Messages.jsx'
 
-ReactDOM.render(<h1>Hello React!</h1>, document.getElementById('app'));
+const App = () => (
+  <div>
+    <Channels />
+    <Messages />
+  </div>
+)
+
+ReactDOM.render(<App />, document.getElementById('app'))
