@@ -1,7 +1,7 @@
 import React from 'react'
 
 const Channels = (props) => (
-  <div>Channels</div>
+  <div>{props.channels[0]}</div>
 )
 
 module.exports = Channels
